@@ -5817,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
 			(at 63.246 165.608 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 67.31 181.61 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBup"
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBdn"
 			(at 48.26 171.45 0)
 			(effects
 				(font
