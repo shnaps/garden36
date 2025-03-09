@@ -2694,7 +2694,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "1c1271b6-9f92-48ad-b911-a423cf08cb4b")
 			(effects
@@ -2706,7 +2706,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "28704744-8308-43cc-af39-54b897a3e784")
 			(effects
@@ -2973,7 +2973,7 @@
 			(uuid "cf5d7b00-84a6-4b5d-8628-4fcb2a811a32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "3ef2fb55-9ab4-4946-952d-9c9a796401ee")
 			(effects
@@ -4168,7 +4168,7 @@
 		(at 94.263414 97.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH14"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "e10a1140-cd61-4690-9618-99fe0baf1b75")
 			(effects
@@ -4180,7 +4180,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2d7750be-f20d-4984-b6cc-e2189737b8f3")
 			(effects
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fe571c3b-f5f6-419d-8fa7-6e4e3335b68f")
@@ -4205,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9c92689e-2b03-4c72-8039-4fed09536145")
@@ -4218,7 +4218,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a6748aa2-f155-42d1-91b8-e9cda1674a0c")
@@ -4812,7 +4812,7 @@
 			(uuid "0aa1ab1c-b0d8-4c61-b26d-3b938a15aa9e")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "83e4e7f2-71c1-4931-8dc0-59fc751aa93d")
 			(effects
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "e6dcabfb-3b88-484d-ae82-bb153a1c2102")
 			(effects
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "23dd3f72-34f2-4558-9e2e-5154f88d9b13")
 			(effects
@@ -4981,7 +4981,7 @@
 		(at 94.263414 80.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH9"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "fb098f38-b53f-4a05-9853-84deec8e0469")
 			(effects
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ee16b2e1-9803-41d4-86d7-b43ddc164156")
 			(effects
@@ -5005,7 +5005,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "98443d0d-b1a0-4059-9526-444f167ae836")
@@ -5018,7 +5018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a846d003-7a55-4d96-94df-874ebc476e0a")
@@ -5031,7 +5031,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8047d9ce-ef08-4cac-b711-ac5e79d3966b")
@@ -5625,7 +5625,7 @@
 			(uuid "654ce904-1d4c-4dd5-a6ea-044a754d87f3")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "0a3768fb-1c5b-4aef-92a6-914f2036a2e6")
 			(effects
@@ -5648,7 +5648,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "d3971f39-80a4-4d18-a457-fe5fd51e69cf")
 			(effects
@@ -5659,7 +5659,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "532fd5e1-13f8-4f68-bab9-9da0c95f99b1")
 			(effects
@@ -5794,7 +5794,7 @@
 		(at 76.263414 91.494512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH13"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "c25be201-5a7e-46bd-bc78-e8a74e24541f")
 			(effects
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "48674bcf-283b-4657-a479-84d9aed5e11a")
 			(effects
@@ -5818,7 +5818,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3cbc373-df67-4b17-ad7e-9057b3193054")
@@ -5831,7 +5831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "38f56185-2733-4f93-a8aa-0f14f5fb92b8")
@@ -5844,7 +5844,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5a6bd789-9fcc-4021-bc4f-b777ba084c2a")
@@ -6438,7 +6438,7 @@
 			(uuid "b74bd835-7acb-4095-b920-27c6a0419c49")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "f2a72dd7-3a00-4aa1-a7ad-f93861231630")
 			(effects
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "ed28886a-a73f-46e4-94c0-3ff28bdc668f")
 			(effects
@@ -6472,7 +6472,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "331cebba-a9d5-4b11-8472-9bdad429563c")
 			(effects
@@ -6607,7 +6607,7 @@
 		(at 94.263414 63.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH4"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "5d4115ad-399f-454f-b1da-554c69e5e9ee")
 			(effects
@@ -6619,7 +6619,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6d7a923d-57fe-4abc-86a2-7e219683d8a5")
 			(effects
@@ -6631,7 +6631,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4976798a-0ed7-4d21-9678-be1fee2855e3")
@@ -6644,7 +6644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "82a95da4-7195-4273-bf54-4bf1f96b6a71")
@@ -6657,7 +6657,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a8f68647-d1fe-42b0-aeea-03498889020d")
@@ -7251,7 +7251,7 @@
 			(uuid "ab4d242c-7495-4f02-ab41-f26678576bd5")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "5188a893-45bd-485b-82fa-b4a824c58b64")
 			(effects
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "2eff61af-5510-4351-95bc-525868c29499")
 			(effects
@@ -7285,7 +7285,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "8396ac40-f548-4c98-bc4b-24e0e8ce1a39")
 			(effects
@@ -8567,7 +8567,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "81ca3f4c-4af1-47dc-9592-459ec9f49fc6")
 			(effects
@@ -8579,7 +8579,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "686fa138-d8a6-45cf-b27e-a4a1ce313bed")
 			(effects
@@ -8846,7 +8846,7 @@
 			(uuid "368b5d51-115c-494e-8fa0-6e5cef891edf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "469d241b-d97e-4f59-b300-055601ee06f8")
 			(effects
@@ -8896,7 +8896,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D13"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "6989e516-5799-4075-9945-9a4e95ae052d")
 			(effects
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "6746f446-ee37-4e94-bb31-58f8b86c495e")
 			(effects
@@ -9175,7 +9175,7 @@
 			(uuid "129c1cdf-cd81-4883-a8f7-1025d65157b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "c1d7beb7-63e2-4733-bd37-4cdf5654bbdb")
 			(effects
@@ -9225,7 +9225,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "f8e51dca-29f7-45b1-b2ba-1a82d6c145de")
 			(effects
@@ -9237,7 +9237,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "7b3577a8-32a3-404f-a79a-bc78cb1bfd02")
 			(effects
@@ -9504,7 +9504,7 @@
 			(uuid "cd6dceb0-7389-4846-9fb3-7b05a5823de8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "472ef192-cea7-4a19-96d5-17132b41146e")
 			(effects
@@ -9553,7 +9553,7 @@
 		(at 112.263414 72.149512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH5"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "b3b87f3e-3be3-4a52-b740-f5ebad8e4bda")
 			(effects
@@ -9565,7 +9565,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "fa66bc62-1490-45a3-ac6e-9d3c4a976710")
 			(effects
@@ -9577,7 +9577,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d46e3c3-024a-4b2b-9001-6759d3997e6a")
@@ -9590,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "db36bb61-6266-4337-bae3-8fc586639227")
@@ -9603,7 +9603,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2fe4be84-5e74-4c7d-b21d-c94f2595b8a8")
@@ -10197,7 +10197,7 @@
 			(uuid "2c7ff90a-f6a6-4d58-bee5-5b2e08c59531")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "41adc34a-c020-4483-968c-6cf9d2c220f5")
 			(effects
@@ -10220,7 +10220,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "ca8974b4-13b4-40b5-9dc5-f8f835c80f2a")
 			(effects
@@ -10231,7 +10231,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "49873a93-ef8f-4a9c-8e39-264b00eb1e5c")
 			(effects
@@ -10366,7 +10366,7 @@
 		(at 40.263414 78.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH1"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "dfe04adf-a843-4aae-b866-52f4b811058e")
 			(effects
@@ -10378,7 +10378,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ac5456dd-2855-4c09-be35-1e2fcf913f33")
 			(effects
@@ -10390,7 +10390,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7d70db6c-1547-4baf-9bff-ab86ed8f331f")
@@ -10403,7 +10403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "54928311-a0bb-4a9f-be84-da4fc6558e27")
@@ -10416,7 +10416,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "673dd31f-8d9b-448f-a854-4213362c7dbe")
@@ -11010,7 +11010,7 @@
 			(uuid "e29f6ec1-9c00-4cb4-bc67-6c19907a8e93")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "f829764b-bd3a-49c8-9eca-67491098c186")
 			(effects
@@ -11033,7 +11033,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "2139ed1c-ad30-409d-b57b-281fb2344d39")
 			(effects
@@ -11044,7 +11044,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "222e8f27-6a1a-42a0-92f9-ae2f4762bf4f")
 			(effects
@@ -11179,7 +11179,7 @@
 		(at 58.263414 82.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH7"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "134e2941-8f92-47bb-9ac8-7301adc3fee6")
 			(effects
@@ -11191,7 +11191,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d1ae13b9-9340-46fd-9a64-c81a10d35e3b")
 			(effects
@@ -11203,7 +11203,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cc4ce543-5001-456e-aae1-f6e0771d978a")
@@ -11216,7 +11216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9e0ffb51-7dd7-4688-bf7e-269fa1d22ee3")
@@ -11229,7 +11229,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0412a444-8032-4332-8d26-ae4dc0f06831")
@@ -11823,7 +11823,7 @@
 			(uuid "81b5433e-04c3-4a7f-a619-446357c51937")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "ce251818-3078-4d7c-a6a0-71cf98b2cbdb")
 			(effects
@@ -11846,7 +11846,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "a9072434-fe9d-4689-a1eb-bfad4ca62fd7")
 			(effects
@@ -11857,7 +11857,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "043d56da-6dc1-4104-88f6-4fae73dcea98")
 			(effects
@@ -11992,7 +11992,7 @@
 		(at 76.263414 57.494512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH3"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "eac62b2a-29cd-4294-adf8-3c6b29621141")
 			(effects
@@ -12004,7 +12004,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "525a5534-67ea-40b7-b651-bac23e3f4297")
 			(effects
@@ -12016,7 +12016,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "04a8bddb-45e6-4a8f-8ba5-ba38cefbf3ce")
@@ -12029,7 +12029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9d517c2d-f0ed-47f2-8d1f-9f168ae314b1")
@@ -12042,7 +12042,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1678a79-0089-41a1-90f1-2b5a9d56fc2e")
@@ -12636,7 +12636,7 @@
 			(uuid "41db8252-269d-4dc8-9891-2d43f43590ac")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "932f9a67-0d83-46df-bbab-561082a932aa")
 			(effects
@@ -12659,7 +12659,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "e4039ca9-2a53-426d-8b4b-4736213e5995")
 			(effects
@@ -12670,7 +12670,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "9495aa99-3e86-4b7d-adbe-73e369a996ca")
 			(effects
@@ -12805,7 +12805,7 @@
 		(at 112.263414 106.149512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH15"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "42f96991-6e23-4607-bac9-cfe028d3c8dd")
 			(effects
@@ -12817,7 +12817,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "59774c5c-080d-46c7-9e78-c2adcb509f09")
 			(effects
@@ -12829,7 +12829,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "26e5bb72-1974-40ad-9dfe-0bfd42da90de")
@@ -12842,7 +12842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9e8efa8e-3486-4ec4-9ed7-761f2d8539de")
@@ -12855,7 +12855,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a56c30c3-bb41-4582-898f-44e1736e326b")
@@ -13449,7 +13449,7 @@
 			(uuid "cf9877df-e2bd-4fc1-b5f3-ff8ca8437340")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "2b1ad019-4c56-44de-8367-f38983d554f4")
 			(effects
@@ -13472,7 +13472,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "27b579eb-0a52-427f-a8b8-214e69be1796")
 			(effects
@@ -13483,7 +13483,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "55599ddf-8161-4390-8b11-a8ddec128f1b")
 			(effects
@@ -13618,7 +13618,7 @@
 		(at 40.263414 112.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH11"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "cef76bd9-35cc-40d6-bcba-e3081ba87ae0")
 			(effects
@@ -13630,7 +13630,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b280a66b-3482-4349-9fff-12547b760a78")
 			(effects
@@ -13642,7 +13642,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d832cbaa-79bb-4a98-b25d-53f447b70de5")
@@ -13655,7 +13655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3a48bf96-7774-4122-87bf-bdea7debcf8c")
@@ -13668,7 +13668,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b5c26ec4-5948-4146-bdd1-c3def980be04")
@@ -14262,7 +14262,7 @@
 			(uuid "1d4aeaa1-096f-4891-9d3a-2483d88c9c92")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "f955f640-9e78-4d20-9f00-9ae45332f300")
 			(effects
@@ -14285,7 +14285,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "8b8856ad-b1dd-4a75-8182-fa8d0b408573")
 			(effects
@@ -14296,7 +14296,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "5f224be0-db89-44ab-b2bf-0ebcc42485c6")
 			(effects
@@ -14432,7 +14432,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "2107ea88-19ad-4611-be9e-7f73c98c8752")
 			(effects
@@ -14444,7 +14444,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "a1b62cf7-d2eb-4522-9f88-d75f759ed318")
 			(effects
@@ -14711,7 +14711,7 @@
 			(uuid "b54bcbf6-7556-4843-9242-0b5afdb0a94e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "60c9f177-52ac-4aa8-9c63-0d0868c08066")
 			(effects
@@ -14761,7 +14761,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "dd8e0d99-c1ec-49d9-8e8b-33df9d3e696a")
 			(effects
@@ -14773,7 +14773,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "146cb407-6205-4121-9d75-9be466a7375f")
 			(effects
@@ -15040,7 +15040,7 @@
 			(uuid "69a3cade-2f67-4a41-89ce-d863125a9888")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "bc017cd3-ba64-4c6b-b95f-cd0563d8d963")
 			(effects
@@ -15090,7 +15090,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "cf988ffc-c353-4a97-b6df-31d1f8f1ab60")
 			(effects
@@ -15102,7 +15102,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "5b120e0b-eca9-4549-b9eb-0c9ad4068adf")
 			(effects
@@ -15369,7 +15369,7 @@
 			(uuid "888d03c2-b312-414a-a2b0-0151514a4b15")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "34939251-ec60-40a1-9825-e009868ab317")
 			(effects
@@ -15418,7 +15418,7 @@
 		(at 112.263414 89.149512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH10"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "34ed5328-1dec-4b8f-942c-435c48ff2b56")
 			(effects
@@ -15430,7 +15430,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ca674ac4-8ca1-427c-8a7c-d8318bda3ae2")
 			(effects
@@ -15442,7 +15442,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "58bd3a3b-a5e9-4cd3-86bb-6e1b49983943")
@@ -15455,7 +15455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0e7279ef-c4cc-4a25-b165-edb3cbee2dbe")
@@ -15468,7 +15468,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5d99d7a8-2c42-4643-be58-e9840397d45c")
@@ -16062,7 +16062,7 @@
 			(uuid "dff78fde-b27f-42e2-9dd5-2931c1020dc3")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "9991484b-e9ab-4383-8a45-d85b23380345")
 			(effects
@@ -16085,7 +16085,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "0ec2b0cb-a0d0-438c-9a28-d1642c02f840")
 			(effects
@@ -16096,7 +16096,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "167e7899-bcbb-45a1-bd14-64ce4c16c53a")
 			(effects
@@ -16231,7 +16231,7 @@
 		(at 76.263414 74.494512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH8"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "e1c576df-6751-40ab-93cb-3848ae4774bb")
 			(effects
@@ -16243,7 +16243,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "43bf4c21-7e76-4af1-b633-a36265259069")
 			(effects
@@ -16255,7 +16255,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "af42cb9f-1a62-491a-adb6-1a4413c3933b")
@@ -16268,7 +16268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a764e0be-19da-4ba9-aa25-ba2d939ce876")
@@ -16281,7 +16281,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1c4fc0c2-88aa-44e9-b6cc-5ee76c1e179d")
@@ -16875,7 +16875,7 @@
 			(uuid "6ee892a7-940a-4092-89cb-55cabe24162c")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "a9c2990c-b983-4337-9a0c-660f0011439e")
 			(effects
@@ -16898,7 +16898,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "ad49946e-f515-4d20-9040-b1138a84bbff")
 			(effects
@@ -16909,7 +16909,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "092e6e0f-c931-46d2-93fa-dc74b86b15db")
 			(effects
@@ -17045,7 +17045,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "9f7c76a8-0269-4513-9fde-c117b94eb16f")
 			(effects
@@ -17057,7 +17057,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "a8cfa9df-cfab-4803-9b6d-66728c906cec")
 			(effects
@@ -17324,7 +17324,7 @@
 			(uuid "defa9094-a809-49bc-9273-fb504bc55669")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "dc847f01-8188-499e-bd32-4b3ed898f20b")
 			(effects
@@ -17374,7 +17374,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "b0f23cee-fa42-4201-b1eb-d616166124d5")
 			(effects
@@ -17386,7 +17386,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "d735c405-31d5-4158-8ea3-fcefa8de5210")
 			(effects
@@ -17653,7 +17653,7 @@
 			(uuid "9d951b03-2154-4859-b6da-11a074041aab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "6c35afa6-4350-4b5a-8153-8b6a62786f19")
 			(effects
@@ -18031,7 +18031,7 @@
 		(at 58.263414 65.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH2"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "f1af37c9-37c3-46ed-9a18-0c4156a0e06a")
 			(effects
@@ -18043,7 +18043,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6fdc6f8d-455b-4f43-a977-6cc62c6bac34")
 			(effects
@@ -18055,7 +18055,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "df3c7476-129d-4c6e-ad19-7ff0b775721f")
@@ -18068,7 +18068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a321541a-a333-452a-b12a-01e0ee3bfebf")
@@ -18081,7 +18081,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c04ee741-e3b2-4b98-8c6c-43ce800c9527")
@@ -18675,7 +18675,7 @@
 			(uuid "3ce8dc67-d215-48dd-a71a-1c99312648a6")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "dfdc7b8d-3993-457b-9eb7-ab66d83c512e")
 			(effects
@@ -18698,7 +18698,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "f7faab84-032d-493c-b0a5-f9b699ca96c7")
 			(effects
@@ -18709,7 +18709,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "28de24ad-2348-455e-9c69-dfe1d600e8c9")
 			(effects
@@ -18844,7 +18844,7 @@
 		(at 40.263414 95.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH6"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "edb2815b-f17a-41eb-b933-980b35c9981e")
 			(effects
@@ -18856,7 +18856,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e319bdfc-3586-44c4-a229-b04c940e9797")
 			(effects
@@ -18868,7 +18868,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1beab5c0-730f-4202-95ac-ef0facd5af51")
@@ -18881,7 +18881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0ba12837-7c6d-453c-a3c1-4b230daf44b1")
@@ -18894,7 +18894,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f98a32f2-7825-49d6-8405-6018932b531c")
@@ -19488,7 +19488,7 @@
 			(uuid "53a15212-4adb-462f-9fd4-6982a158ff2c")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "d9eee9d1-c6fb-4ca4-938b-2ad66fd2114f")
 			(effects
@@ -19511,7 +19511,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "d3520eb7-8915-46d2-8e73-ca92dc00107a")
 			(effects
@@ -19522,7 +19522,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "2e1d087e-7c1a-4a91-9a80-f016a04ff0d4")
 			(effects
@@ -19658,7 +19658,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "beabe8ae-1535-450b-aa22-086738c4c73a")
 			(effects
@@ -19670,7 +19670,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "0db730c4-6f6f-42af-9345-f03cca2a3b19")
 			(effects
@@ -19937,7 +19937,7 @@
 			(uuid "da8f982c-b0db-455b-ae87-82b9eec63e48")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "0c90efe3-4f25-4319-86d6-547f6c01ec10")
 			(effects
@@ -19987,7 +19987,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "40bba0fd-e966-46cb-991c-dd12b1fdee36")
 			(effects
@@ -19999,7 +19999,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "032a44ab-ef79-4144-9241-2491614c2e9e")
 			(effects
@@ -20266,7 +20266,7 @@
 			(uuid "dd005e04-cc7c-4f39-99d2-58372a99b775")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "92525aae-b776-43ca-b6c9-6b2c9590453e")
 			(effects
@@ -20316,7 +20316,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D2"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "af8bc422-b25c-4685-b718-13ae1d7d27d5")
 			(effects
@@ -20328,7 +20328,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "5c587517-f0e8-4313-a8a0-c6bcf6b4713a")
 			(effects
@@ -20595,7 +20595,7 @@
 			(uuid "2b528eed-ca03-4336-bc70-aaf245134942")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "c824139e-2ea7-4f42-95d0-23e470b716c6")
 			(effects
@@ -20645,7 +20645,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "51088f74-3e64-45d3-b00f-fa0ae6a4be5f")
 			(effects
@@ -20657,7 +20657,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "d4019138-656d-4565-9576-9c21dab2c6f0")
 			(effects
@@ -20924,7 +20924,7 @@
 			(uuid "978ae0d0-9abd-4d54-a157-11b5ac415daa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "2ec02bcd-7846-4cf0-99dd-b5ab6f30397d")
 			(effects
@@ -20973,7 +20973,7 @@
 		(at 58.263414 99.994512)
 		(descr "Hotswap footprint for Kailh Choc style switches")
 		(property "Reference" "CH12"
-			(at 5 -7.4 360)
+			(at 5 -7.4 0)
 			(layer "B.SilkS")
 			(uuid "92446f84-b742-43a7-9816-6a8f05ae616a")
 			(effects
@@ -20985,7 +20985,7 @@
 			)
 		)
 		(property "Value" "choc_v1_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c26f1cd7-cf5a-44a9-bdc9-c83844916ea6")
 			(effects
@@ -20997,7 +20997,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8d89b9e0-a7c5-4129-87cb-cc6d9f85dc93")
@@ -21010,7 +21010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2aeac726-04ad-4819-be5e-a143a6b31b8e")
@@ -21023,7 +21023,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e929d849-0183-4a3c-a50d-96796390ea82")
@@ -21617,7 +21617,7 @@
 			(uuid "467c53b4-bf9b-4b81-824f-81b979027c24")
 		)
 		(fp_text user "18x17 spacing"
-			(at 0 7.6 360)
+			(at 0 7.6 0)
 			(layer "Dwgs.User")
 			(uuid "6a49f45d-2a34-4203-8770-538aba6debbb")
 			(effects
@@ -21640,7 +21640,7 @@
 			)
 		)
 		(fp_text user "19.05 spacing"
-			(at 0 8.7 360)
+			(at 0 8.7 0)
 			(layer "Eco1.User")
 			(uuid "ff460153-eec7-4c32-9281-61df3c0d7af0")
 			(effects
@@ -21651,7 +21651,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.496 -5.025 360)
+			(at 2.496 -5.025 0)
 			(layer "B.Fab")
 			(uuid "26538c76-1414-4127-ad25-c50e726adf97")
 			(effects
@@ -22551,7 +22551,7 @@
 			(uuid "fa257be9-d840-4fc4-b42d-4e3c2f9a4aed")
 		)
 		(pad "2" smd roundrect
-			(at -3.245 -5.949998 350)
+			(at -3.245 -5.949997 350)
 			(size 2.65 2.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -22604,7 +22604,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "e8fd99fc-1237-4c18-9d10-aeff4f1d2a35")
 			(effects
@@ -22616,7 +22616,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "2b60b741-d9a6-4988-9aee-4c99e0f682b8")
 			(effects
@@ -22883,7 +22883,7 @@
 			(uuid "3ddaa5d1-93e6-40e1-86ac-03795e83ad48")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "4ae8a046-319d-43c5-aa13-c5bcb55c4e6c")
 			(effects
@@ -22933,7 +22933,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(uuid "f6c0bc94-d6fe-4839-bc98-f858835bc1a7")
 			(effects
@@ -22945,7 +22945,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "486666a9-590c-4789-accb-a43b155e8592")
 			(effects
@@ -23212,7 +23212,7 @@
 			(uuid "e004f18e-8d57-482d-a4ea-8691b41bee56")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "6b6ea101-e5f5-4a43-8055-8dd8a51cae9e")
 			(effects
@@ -23270,126 +23270,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "25940f98-0531-4a65-b70b-70c270767a01")
-	)
-	(gr_line
-		(start 67.3 48.6625)
-		(end 67.3 57.1625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "01f0d46f-b610-4f5e-98c1-7f4928c52dce")
-	)
-	(gr_line
-		(start 141.6 52.0625)
-		(end 85.7 52.0625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "1f884bfb-bab6-4a66-a695-8ed765d337eb")
-	)
-	(gr_line
-		(start 49.29 70.1275)
-		(end 49.29 57.1625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "32a534ed-2af5-489e-823e-429a886fe706")
-	)
-	(gr_line
-		(start 31.29 70.1275)
-		(end 49.09 70.1275)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "42fe2786-8eac-4552-a9b6-fc1929a46d54")
-	)
-	(gr_line
-		(start 85.7 48.6625)
-		(end 85.7 52.0625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "6c63cd96-2226-4317-bf5b-cf3b8a5026c5")
-	)
-	(gr_line
-		(start 85.7 48.6625)
-		(end 67.3 48.6625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "7ffe15f8-96d0-400d-9ed0-61b5311a0613")
-	)
-	(gr_line
-		(start 67.3 57.1625)
-		(end 49.29 57.1625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "8eaa533d-5310-4a2b-926e-c385693565f2")
-	)
-	(gr_line
-		(start 31.29 70.1275)
-		(end 31.3 121.5625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "a6f09100-0bca-454f-9b50-ce9cf65baf7c")
-	)
-	(gr_line
-		(start 49.09 70.1275)
-		(end 49.29 70.1275)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "a9e2eeb0-cf2e-4dcf-b095-fa5b8030ee6b")
-	)
-	(gr_line
-		(start 49.8 121.5625)
-		(end 31.3 121.5625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "ba96b578-0cd4-46f7-8519-0336907ea731")
-	)
-	(gr_line
-		(start 123.8 139.4625)
-		(end 137.3 126.5625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "dbf481ef-3636-4eef-8277-a27b93d9f16a")
-	)
-	(gr_line
-		(start 123.8 139.4625)
-		(end 87.7 135.1625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "fe5a47bd-c872-4dd2-b09e-704408c2fdf5")
 	)
 	(group ""
 		(uuid "e3bca165-a37e-4109-ab50-e547d2fd6736")
