@@ -2,3 +2,5 @@ garden36-backups/*
 \#auto_saved_files\#
 /freerouting.rules
 /exports
+~garden36.kicad_pcb.lck
+~garden36.kicad_sch.lck
