@@ -2503,7 +2503,7 @@
 		)
 		(uuid "f8b4824d-f8ec-47c7-88de-894416b62e25")
 	)
-	(global_label "COL1"
+	(global_label "COL0"
 		(shape input)
 		(at 67.31 142.24 0)
 		(fields_autoplaced yes)
@@ -2569,7 +2569,7 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "COL1"
 		(shape input)
 		(at 67.31 139.7 0)
 		(fields_autoplaced yes)
