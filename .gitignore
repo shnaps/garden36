@@ -6,3 +6,6 @@ garden36-backups/*
 ~garden36.kicad_sch.lck
 /_autosave-garden36.kicad_sch
 /transformit.log
+/garden36-backups
+/production
+/~_autosave-garden36.kicad_pcb.lck
