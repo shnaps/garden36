@@ -1260,6 +1260,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kometa:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.778)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PW"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.254 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.254 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_1_1"
+				(rectangle
+					(start -1.6764 1.397)
+					(end -2.54 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.6764 -1.143)
+					(end -2.54 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.6764 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.6764 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 1.27 180)
+					(length 3.81)
+					(name "BAT+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 3.81)
+					(name "BAT-"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "nice_view:nice!view"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1659,107 +1798,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 261.62 39.37)
@@ -2090,20 +2128,20 @@
 		(uuid "0470a93f-dedf-48b0-a9c8-fd52bd6fee36")
 	)
 	(no_connect
+		(at 140.97 26.67)
+		(uuid "114b0a28-0352-4213-840d-d887509d99d3")
+	)
+	(no_connect
 		(at 280.67 135.89)
 		(uuid "26ad3544-e352-442b-be04-9ce474448cea")
 	)
 	(no_connect
-		(at 339.09 30.48)
-		(uuid "29425288-a441-4f57-844b-11b23e4bcff2")
+		(at 337.82 22.86)
+		(uuid "39aec970-1aff-4556-9210-2fe9e50ae279")
 	)
 	(no_connect
 		(at 87.63 144.78)
 		(uuid "4bffcfcf-b721-4b23-830b-9ece57ef4aea")
-	)
-	(no_connect
-		(at 140.97 36.83)
-		(uuid "4cfe6701-7238-4374-a68d-2c6ef8e6a146")
 	)
 	(no_connect
 		(at 49.53 144.78)
@@ -2288,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "42fdbfca-82ed-4f07-8548-d17182d5558f")
+	)
+	(wire
+		(pts
+			(xy 130.81 34.29) (xy 130.81 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f65398c-18cf-4958-82d5-4d614c986691")
 	)
 	(wire
 		(pts
@@ -2841,6 +2889,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 30.48) (xy 327.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88b2f1b-462d-4bc7-beff-d459f5c25eca")
+	)
+	(wire
+		(pts
 			(xy 45.72 152.4) (xy 49.53 152.4)
 		)
 		(stroke
@@ -2973,28 +3031,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R_BAT"
-		(shape input)
-		(at 367.03 45.72 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15e6a33f-bd20-40d3-8eca-2648e51658f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.03 54.269 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3197,28 +3233,6 @@
 			)
 		)
 	)
-	(global_label "R_RAW"
-		(shape input)
-		(at 339.09 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51fde5d5-0406-445c-abb5-57183ee9b9f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.1228 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R_COL1"
 		(shape input)
 		(at 245.11 27.94 90)
@@ -3373,6 +3387,28 @@
 			)
 		)
 	)
+	(global_label "RAW"
+		(shape input)
+		(at 140.97 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "628cf21c-c62b-4c93-909a-355f1cd20299")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.7652 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 29.21 71.12 180)
@@ -3408,28 +3444,6 @@
 		(uuid "7a81af4f-1942-4f1a-972f-906c0b65c40c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.4252 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RAW"
-		(shape input)
-		(at 140.97 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a93bf94-e106-4439-be42-013b654aeb7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7652 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,28 +3493,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT"
-		(shape input)
-		(at 160.02 41.91 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8817130f-316f-4610-8559-762cc4d1bac1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 48.2214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3589,28 +3581,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R_BAT"
-		(shape input)
-		(at 328.93 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a26e44c1-397d-4ea0-b919-8d5a5786f38c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.381 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3769,28 +3739,6 @@
 			)
 		)
 	)
-	(global_label "BAT"
-		(shape input)
-		(at 130.81 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bedbb522-1975-4ad3-95ab-45c89ce9f8c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.4986 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL2"
 		(shape input)
 		(at 64.77 25.4 90)
@@ -3804,6 +3752,28 @@
 		(uuid "c1003c76-fce9-4547-8616-8e556ea4e1e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.77 17.5767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_RAW"
+		(shape input)
+		(at 337.82 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4882e12-b099-4e22-ae40-8cfb21d8b203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 346.8528 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,6 +4264,74 @@
 			(project "garden36"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Battery")
+		(at 128.27 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f82437-7d4f-40b7-8014-25013022da87")
+		(property "Reference" "PW1"
+			(at 126.365 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 126.365 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "garden:Battery"
+			(at 128.524 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.016 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6cb7ec-4788-4393-9fa3-ecfbc66dcb7d")
+		)
+		(pin "2"
+			(uuid "6feddd98-abce-4297-af6b-c0778eab54d1")
+		)
+		(instances
+			(project "garden36"
+				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
+					(reference "PW1")
 					(unit 1)
 				)
 			)
@@ -6789,72 +6827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "656a6c94-450d-4f64-a9bd-0da8330b23e0")
-		(property "Reference" "#PWR07"
-			(at 168.91 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a0352ea-d134-4b5f-b999-618fe06da9c3")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 102.87 88.9 90)
 		(unit 1)
@@ -7404,72 +7376,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 367.03 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a159ddc-2c95-4092-9906-f49b56cd2ae4")
-		(property "Reference" "#FLG06"
-			(at 367.03 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 367.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 367.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f779691-0d86-45b8-b699-c02a962abae1")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 297.18 41.91 0)
 		(unit 1)
@@ -7687,6 +7593,72 @@
 			(project "garden36"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8420b5f0-18d7-44c9-a27f-c19b28000bea")
+		(property "Reference" "#PWR011"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cda0d8b-7fc9-4c35-af13-77821cac4e7e")
+		)
+		(instances
+			(project "garden36"
+				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7918,7 +7890,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 334.01 33.02 0)
+		(at 332.74 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7926,7 +7898,7 @@
 		(dnp no)
 		(uuid "903693c0-32d4-4d85-99f8-6347b023f622")
 		(property "Reference" "SW3"
-			(at 334.01 27.94 0)
+			(at 332.74 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7906,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 334.01 38.1 0)
+			(at 332.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +7914,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
-			(at 334.01 33.02 0)
+			(at 332.74 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 40.64 0)
+			(at 332.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7932,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 334.01 33.02 0)
+			(at 332.74 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,72 +8021,6 @@
 			(project "shnapsbord"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "CH10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 168.91 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b24b236-d5ca-4293-a1de-34f5eed118d5")
-		(property "Reference" "#FLG05"
-			(at 168.91 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.91 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a15130b-059a-4cab-8282-9f4754eb4d5e")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -8366,7 +8272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 375.92 45.72 180)
+		(at 327.66 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8374,7 +8280,7 @@
 		(dnp no)
 		(uuid "ac6914cd-7de0-412d-83f2-bb8a6bd77e33")
 		(property "Reference" "#PWR010"
-			(at 375.92 39.37 0)
+			(at 327.66 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8289,7 @@
 			)
 		)
 		(property "Value" "R_GND"
-			(at 375.92 40.64 0)
+			(at 327.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 45.72 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 45.72 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 45.72 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,72 +8668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf6b7c07-7aed-41ff-a725-a440b4d23b45")
-		(property "Reference" "#FLG04"
-			(at 160.02 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 160.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfb2ffa2-fcf2-42b1-b2c4-d20ac3d07e56")
-		)
-		(instances
-			(project ""
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 110.49 90)
 		(unit 1)
@@ -8984,7 +8824,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 135.89 39.37 0)
+		(at 135.89 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8992,7 +8832,7 @@
 		(dnp no)
 		(uuid "c98b0692-9e22-4c87-b981-893aa143bc6b")
 		(property "Reference" "SW1"
-			(at 135.89 34.29 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +8840,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 135.89 44.45 0)
+			(at 135.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +8848,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
-			(at 135.89 39.37 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +8857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 46.99 0)
+			(at 135.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +8866,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 135.89 39.37 0)
+			(at 135.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +8884,7 @@
 			(uuid "716bbef6-6260-48b4-9759-63b78bbbdc00")
 		)
 		(instances
-			(project ""
+			(project "garden36"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "SW1")
 					(unit 1)
@@ -9830,6 +9670,74 @@
 		)
 	)
 	(symbol
+		(lib_id "kometa:Battery")
+		(at 325.12 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f67dcd-21b8-4e6e-8bcf-0f31d7984b15")
+		(property "Reference" "PW4"
+			(at 323.215 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 323.215 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "garden:Battery"
+			(at 325.374 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 324.866 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4abf32a-d65f-4316-9ae0-7e2339b6186b")
+		)
+		(pin "2"
+			(uuid "140cb1f2-21f8-4924-8ac8-4694776ee3ea")
+		)
+		(instances
+			(project "garden36"
+				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
+					(reference "PW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 69.85 67.31 90)
 		(unit 1)
@@ -10586,72 +10494,6 @@
 			(project "garden36"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 375.92 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edb8458b-1c55-4f23-90a8-aa97be390a18")
-		(property "Reference" "#FLG07"
-			(at 375.92 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 375.92 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 375.92 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 375.92 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11a1e88f-52f1-462c-b686-ada2f492e9b8")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
