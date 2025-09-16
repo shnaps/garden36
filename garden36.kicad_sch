@@ -1343,136 +1343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "garden:MouseBites"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "MB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-various:mousebites_1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MouseBites_0_1"
-				(circle
-					(center -6.35 -10.16)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -10.16)
-					(mid 0 -7.5297)
-					(end 6.35 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -10.16)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "kometa:Battery"
+		(symbol "garden:Battery"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1606,6 +1477,135 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "garden:MouseBites"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "MB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:mousebites_1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MouseBites_0_1"
+				(circle
+					(center -6.35 -10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -6.35)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -6.35)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -10.16)
+					(mid 0 -7.5297)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -6.35)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -6.35)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2336,28 +2336,92 @@
 		(uuid "fdf0d494-158f-4803-b49f-d8799d7278d2")
 	)
 	(no_connect
+		(at 259.08 171.45)
+		(uuid "024dde99-4022-4b73-9a67-62b92b6f6ec9")
+	)
+	(no_connect
 		(at 242.57 135.89)
 		(uuid "0470a93f-dedf-48b0-a9c8-fd52bd6fee36")
+	)
+	(no_connect
+		(at 63.5 180.34)
+		(uuid "0924f2d3-bccf-4353-8b62-3c1a943bb076")
 	)
 	(no_connect
 		(at 140.97 26.67)
 		(uuid "114b0a28-0352-4213-840d-d887509d99d3")
 	)
 	(no_connect
-		(at 280.67 135.89)
-		(uuid "26ad3544-e352-442b-be04-9ce474448cea")
+		(at 256.54 171.45)
+		(uuid "181ed061-2cae-4218-9158-b1a0914b9481")
 	)
 	(no_connect
 		(at 337.82 22.86)
 		(uuid "39aec970-1aff-4556-9210-2fe9e50ae279")
 	)
 	(no_connect
-		(at 87.63 144.78)
-		(uuid "4bffcfcf-b721-4b23-830b-9ece57ef4aea")
+		(at 49.53 175.26)
+		(uuid "3a559e34-a55b-4c21-9ceb-03b14fcf851f")
+	)
+	(no_connect
+		(at 66.04 180.34)
+		(uuid "4082e37f-8b96-465d-bc60-d8892dac4156")
+	)
+	(no_connect
+		(at 280.67 166.37)
+		(uuid "47edacb3-84a8-4da8-9061-b4cb87f2dfd3")
+	)
+	(no_connect
+		(at 49.53 167.64)
+		(uuid "49975748-2acb-41de-a488-131aa131456b")
+	)
+	(no_connect
+		(at 280.67 161.29)
+		(uuid "5fb37ce2-1815-41f6-8a3e-d4ef43581f5c")
+	)
+	(no_connect
+		(at 49.53 172.72)
+		(uuid "6f7102f9-48bd-40fb-9d62-bd9b12ba7bc3")
+	)
+	(no_connect
+		(at 49.53 165.1)
+		(uuid "6fdc83ce-9b89-4790-88ca-3214b7651096")
 	)
 	(no_connect
 		(at 49.53 144.78)
 		(uuid "9f90a008-e1a5-4c9a-92c3-9af2e653c3b4")
+	)
+	(no_connect
+		(at 280.67 156.21)
+		(uuid "aa4d5154-25b3-40ca-a439-e475ad4635e0")
+	)
+	(no_connect
+		(at 242.57 140.97)
+		(uuid "b22a2f3a-da68-466a-9428-68f7ef010fc0")
+	)
+	(no_connect
+		(at 68.58 180.34)
+		(uuid "b4436272-0b37-4abc-8bc1-bdff1c9ff37f")
+	)
+	(no_connect
+		(at 261.62 171.45)
+		(uuid "bb216353-7805-4bfc-94d6-764f2816dcde")
+	)
+	(no_connect
+		(at 49.53 170.18)
+		(uuid "d2300afd-8077-4604-93a9-b99dde75a8df")
+	)
+	(no_connect
+		(at 280.67 158.75)
+		(uuid "d7ce889e-d0c9-469f-a477-c025f656c3eb")
+	)
+	(no_connect
+		(at 280.67 163.83)
+		(uuid "edd5637c-5d54-4e20-95b8-8d82396e9f13")
+	)
+	(no_connect
+		(at 49.53 162.56)
+		(uuid "f30272e7-dc87-401c-928a-4979a985a33b")
 	)
 	(wire
 		(pts
@@ -3203,6 +3267,28 @@
 			)
 		)
 	)
+	(global_label "R_ROW2"
+		(shape input)
+		(at 242.57 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0be3789e-b107-4a79-9dc5-910ebc1afbac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0858 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 127 81.28 270)
@@ -3238,6 +3324,28 @@
 		(uuid "10ec95ae-1d88-48e0-9084-4bc312fc28c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 289.3399 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 87.63 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e38b34c-6f80-4124-8951-5edb48fa018e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8766 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,6 +3465,72 @@
 			)
 		)
 	)
+	(global_label "R_RAW"
+		(shape input)
+		(at 280.67 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a0b677b-4fa9-496b-88d2-fd57b5ecfe7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.7028 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 87.63 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a467273-a810-4d54-8935-c4a2e6ca4244")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8766 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 87.63 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c249678-c3ca-42d4-92f9-41555fb9ef13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R_ROW0"
 		(shape input)
 		(at 226.06 52.07 180)
@@ -3370,6 +3544,28 @@
 		(uuid "4114cde0-2d49-496e-97f7-03ccfc3ee11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.5758 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_ROW1"
+		(shape input)
+		(at 242.57 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42a91bbb-7efd-4037-8d1c-c855608a8c8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0858 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,6 +3817,28 @@
 			)
 		)
 	)
+	(global_label "R_COL0"
+		(shape input)
+		(at 242.57 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d7ae4a5-604b-4cf4-9fbd-d555c0d37002")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5091 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 29.21 71.12 180)
@@ -3639,6 +3857,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAW"
+		(shape input)
+		(at 87.63 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78f8e82a-d7be-4d77-bd62-f17b9a5e885b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4252 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3709,6 +3949,28 @@
 			)
 		)
 	)
+	(global_label "COL3"
+		(shape input)
+		(at 87.63 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "868b2388-e8ea-407c-972e-a4f869861ae8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS"
 		(shape input)
 		(at 137.16 81.28 270)
@@ -3744,6 +4006,28 @@
 		(uuid "8b2d1be6-e512-41bd-ba8c-518be6499128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 332.74 84.0233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_ROW3"
+		(shape input)
+		(at 242.57 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90c6d090-0150-4acc-91c7-a56dcd9d026b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0858 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,6 +4191,28 @@
 			)
 		)
 	)
+	(global_label "ROW2"
+		(shape input)
+		(at 87.63 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1183667-4abe-4181-b68d-1e108cde79f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8766 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R_CS"
 		(shape input)
 		(at 335.28 74.93 270)
@@ -4017,6 +4323,28 @@
 			)
 		)
 	)
+	(global_label "R_ROW0"
+		(shape input)
+		(at 242.57 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbde42f1-9f10-404c-8adf-56a9ba3515d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0858 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 49.53 160.02 180)
@@ -4035,6 +4363,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 87.63 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1c0263c-914c-487d-a978-e0a48294d44a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4079,6 +4429,94 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_COL3"
+		(shape input)
+		(at 280.67 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5a785bd-d72d-435c-8e0a-030247074358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.7309 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 87.63 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dddfc14e-6183-41ce-8fa9-fc0f9ca70aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_COL1"
+		(shape input)
+		(at 242.57 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de642547-5479-47ba-99aa-c02f303010a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5091 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_COL2"
+		(shape input)
+		(at 280.67 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e20e611d-ab7b-4ae4-85cc-2b7c9a88269b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.7309 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4140,6 +4578,72 @@
 		(uuid "f30192e3-88e8-4e12-9c77-224c1907ca4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 289.7028 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 87.63 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f661dd4f-e83e-4144-b82c-a6fd88a9aad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8766 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 49.53 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f76b7561-6739-427c-99ab-50ad7f0d01fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7067 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_COL4"
+		(shape input)
+		(at 280.67 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbc8588c-eb3f-4690-8afe-4f1d687f6f56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.7309 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,74 +5044,6 @@
 			(project "garden36"
 				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
 					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kometa:Battery")
-		(at 128.27 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10f82437-7d4f-40b7-8014-25013022da87")
-		(property "Reference" "PW1"
-			(at 126.365 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 126.365 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "garden:Battery"
-			(at 128.524 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.016 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd6cb7ec-4788-4393-9fa3-ecfbc66dcb7d")
-		)
-		(pin "2"
-			(uuid "6feddd98-abce-4297-af6b-c0778eab54d1")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "PW1")
 					(unit 1)
 				)
 			)
@@ -5177,7 +5613,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 63.5 194.31 0)
+		(at 214.63 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5186,7 +5622,7 @@
 		(fields_autoplaced yes)
 		(uuid "1da2effc-2d08-43a4-93f2-78f49f90476c")
 		(property "Reference" "H11"
-			(at 66.04 193.0399 0)
+			(at 217.17 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5631,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 66.04 195.5799 0)
+			(at 217.17 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5640,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 63.5 194.31 0)
+			(at 214.63 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 194.31 0)
+			(at 214.63 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5658,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 63.5 194.31 0)
+			(at 214.63 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,6 +6887,74 @@
 		)
 	)
 	(symbol
+		(lib_id "garden:Battery")
+		(at 128.27 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f18683a-845a-4bc7-afb7-84bcbd4692a6")
+		(property "Reference" "PW1"
+			(at 126.365 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 126.365 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "garden:Battery"
+			(at 128.524 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.016 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e7c03a-9370-45ca-bcc2-a85aa7e2d8c1")
+		)
+		(pin "2"
+			(uuid "8e20757c-a3fc-4f6f-a64f-52385d5cc30f")
+		)
+		(instances
+			(project ""
+				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
+					(reference "PW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_v1_SW_HS_CPG135001S30")
 		(at 231.14 85.09 0)
 		(unit 1)
@@ -6520,7 +7024,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 243.84 0)
+		(at 215.9 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6529,7 +7033,7 @@
 		(fields_autoplaced yes)
 		(uuid "41c629ea-d180-4b42-b958-afeea19833ae")
 		(property "Reference" "H17"
-			(at 67.31 242.5699 0)
+			(at 218.44 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +7042,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 245.1099 0)
+			(at 218.44 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +7051,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 243.84 0)
+			(at 215.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +7060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 243.84 0)
+			(at 215.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +7069,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 243.84 0)
+			(at 215.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,6 +8146,74 @@
 		)
 	)
 	(symbol
+		(lib_id "garden:Battery")
+		(at 325.12 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0178da-5577-49bb-ac00-5095bdb61460")
+		(property "Reference" "PW2"
+			(at 323.215 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 323.215 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "garden:Battery"
+			(at 325.374 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 324.866 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9672e855-f881-4b13-9076-03dcdedba8f1")
+		)
+		(pin "1"
+			(uuid "34815bb6-f20e-44c0-bad8-e94e659f61c9")
+		)
+		(instances
+			(project ""
+				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
+					(reference "PW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 86.36 45.72 90)
 		(unit 1)
@@ -8687,7 +9259,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 62.23 212.09 0)
+		(at 213.36 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8696,7 +9268,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6efb9e8-e846-4eda-85dc-719beb36211b")
 		(property "Reference" "H13"
-			(at 64.77 210.8199 0)
+			(at 215.9 208.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +9277,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 64.77 213.3599 0)
+			(at 215.9 210.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +9286,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 62.23 212.09 0)
+			(at 213.36 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 212.09 0)
+			(at 213.36 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +9304,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 62.23 212.09 0)
+			(at 213.36 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,74 +11029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kometa:Battery")
-		(at 325.12 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f67dcd-21b8-4e6e-8bcf-0f31d7984b15")
-		(property "Reference" "PW4"
-			(at 323.215 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 323.215 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "garden:Battery"
-			(at 325.374 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 324.866 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4abf32a-d65f-4316-9ae0-7e2339b6186b")
-		)
-		(pin "2"
-			(uuid "140cb1f2-21f8-4924-8ac8-4694776ee3ea")
-		)
-		(instances
-			(project "garden36"
-				(path "/de6065ff-1978-4943-a80c-32d4c7cba771"
-					(reference "PW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "garden:MouseBites")
 		(at 175.26 184.15 0)
 		(unit 1)
@@ -10678,7 +11182,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 63.5 203.2 0)
+		(at 214.63 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10687,7 +11191,7 @@
 		(fields_autoplaced yes)
 		(uuid "d79eda7e-3524-4f17-b11f-d79d6ce28f79")
 		(property "Reference" "H12"
-			(at 66.04 201.9299 0)
+			(at 217.17 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +11200,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 66.04 204.4699 0)
+			(at 217.17 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +11209,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 63.5 203.2 0)
+			(at 214.63 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 203.2 0)
+			(at 214.63 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +11227,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 63.5 203.2 0)
+			(at 214.63 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +11458,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 236.22 0)
+		(at 215.9 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10963,7 +11467,7 @@
 		(fields_autoplaced yes)
 		(uuid "db7bac48-da7c-4124-ab29-069e532ca111")
 		(property "Reference" "H16"
-			(at 67.31 234.9499 0)
+			(at 218.44 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11476,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 237.4899 0)
+			(at 218.44 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +11485,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 236.22 0)
+			(at 215.9 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +11494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 236.22 0)
+			(at 215.9 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11503,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 236.22 0)
+			(at 215.9 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11522,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 63.5 220.98 0)
+		(at 214.63 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11027,7 +11531,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc583b6c-dac7-4a05-9f3e-d93cc222dc58")
 		(property "Reference" "H14"
-			(at 66.04 219.7099 0)
+			(at 217.17 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11540,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 66.04 222.2499 0)
+			(at 217.17 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11549,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 63.5 220.98 0)
+			(at 214.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 220.98 0)
+			(at 214.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11567,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 63.5 220.98 0)
+			(at 214.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12120,7 +12624,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 63.5 228.6 0)
+		(at 214.63 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12129,7 +12633,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd0699ae-9524-4b28-ae62-a6e02f59b013")
 		(property "Reference" "H15"
-			(at 66.04 227.3299 0)
+			(at 217.17 224.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12642,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 66.04 229.8699 0)
+			(at 217.17 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12651,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 63.5 228.6 0)
+			(at 214.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 228.6 0)
+			(at 214.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12669,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 63.5 228.6 0)
+			(at 214.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
