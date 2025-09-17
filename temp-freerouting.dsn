@@ -1,4 +1,4 @@
-(pcb freerouting.dsn
+(pcb "D:\Pr.Projects\garden36\temp-freerouting.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
