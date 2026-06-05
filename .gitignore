@@ -9,3 +9,12 @@ garden36-backups/*
 /garden36-backups
 /production
 /~_autosave-garden36.kicad_pcb.lck
+.history/
+_autosave-*
+~*.lck
+/svg_exports/
+/board export.step
+fp-info-cache
+*.kicad_sch-bak
+*.kicad_prl
+/temp-freerouting.dsn
