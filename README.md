@@ -80,14 +80,13 @@ Flash via UF2 — double-tap reset on each half to enter bootloader, drag-and-dr
 
 ## Case
 
-Case design files (STEP) are in [`case/`](case/):
+A **parametric case generator** lives in [`case-gen/`](case-gen/) — it builds
+the case (bottom tray, choc switch plate, controller cover) straight from
+`garden36.kicad_pcb`, so it always fits the board. Print files in
+`case-gen/out/`. See the [case-gen README](case-gen/README.md) for hardware,
+parameters, and the in-progress controller-on-bottom redesign.
 
-| File | Description |
-|------|-------------|
-| `Left.step` / `Right.step` | PCB halves |
-| `Only top.step` | Top plate |
-| `Bottom left.step` / `Bottom right.step` | Bottom plates |
-| `drawing.FCStd` | FreeCAD assembly (WIP) |
+Older hand-built STEP files remain in [`case/`](case/).
 
 ---
 

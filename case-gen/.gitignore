@@ -1,0 +1,7 @@
+# generated from the PCB (regenerate with extract_pcb.py)
+pcb_data.json
+
+# python
+__pycache__/
+*.pyc
+.venv-case/
